@@ -1,0 +1,9 @@
+asinble.yml: deploy ssh public key to clients
+user local: thuonghh
+user remote: root
+
+ansible: contains list client abort after run playbook.
+
+run: ansible-playbook ansible.yml --ask-pass
+
+--The End --
