@@ -1,0 +1,9 @@
+---
+- hosts: ['172.28.0.86']
+  remote_user: root
+  tasks:
+
+    - name: restart rsyslog services
+      service: 
+        name: rsyslog
+        state: restarted
